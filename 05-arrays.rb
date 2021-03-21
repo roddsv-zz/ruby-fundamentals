@@ -36,5 +36,3 @@ list2 = [3, 4, 5, 6]
 
 p list1 + list2; #You may join two lists with the method +;
 p list1 - list2; #You may dicrease the repeated member from the first list with the method -;
-p list1 * list2;
-
