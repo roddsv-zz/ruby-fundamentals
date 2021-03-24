@@ -4,6 +4,7 @@ puts "Type a value"
 
 value = gets.chomp.to_i
 
+puts value
 p value.class
 
 if value > 20
