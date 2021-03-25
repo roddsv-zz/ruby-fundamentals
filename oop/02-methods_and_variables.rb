@@ -1,4 +1,5 @@
 class Person
+    
     def initialize(name)
         @name = name
     end
@@ -6,13 +7,15 @@ class Person
     def print_hello
         puts "Hello #{@name}"
     end
+
+    def name=(new_name)
+        @name = new_name
+    end
 end
 
 rodrigo = Person.new("rodrigo")
-person2 = Person.new("josi")
+puts rodrigo.print_hello
 
-p rodrigo
-p person2
+rodrigo.name = "Rodrigo Soares"
 
 rodrigo.print_hello
-person2.print_hello
