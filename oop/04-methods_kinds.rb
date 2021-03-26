@@ -3,6 +3,8 @@ class MyClass
         puts "Method 1"
     end
     
+    private 
+
     def m2
         puts "Method 2"
     end
@@ -16,5 +18,5 @@ end
 
 obj = MyClass.new
 obj.m1
-obj.m2
+obj.m2 #Now m2 and m3 are private methods and won't be read out of class scope.
 obj.m3
